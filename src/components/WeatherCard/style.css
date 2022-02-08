@@ -1,0 +1,66 @@
+.card {
+    border: 1px;
+    border-style: solid;
+    width: 80%;
+    padding: 1%;
+}
+
+.row {
+    display: flex;
+    border: 1px;
+    border-style: solid;
+}
+
+.section {
+    flex: 50%;
+    border: 1px;
+    border-style: solid;
+}
+
+.item {
+    flex-direction: row;
+    flex: 5;
+    border: 1px;
+    border-style: solid;
+}
+
+.city {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.summary-weather {
+    display: flex;
+    flex: 50%;
+}
+
+.weather-icon{
+    flex: 1;
+}
+
+.summary-temp{
+    flex: 1;
+}
+
+.small-text {
+    font-size: small;
+}
+
+.large-text {
+    font-size: larger;
+}
+
+.temparature {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.color-green {
+    color: green;
+}
+
+.color-blue {
+    color: darkcyan;
+}
