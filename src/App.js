@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import SearchForm from './components/SearchForm/SearchForm';
+import WeatherCard from './components/WeatherCard';
 const { REACT_APP_APPID } = process.env;
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <section className="App-main-section">
         This is the main section
         <SearchForm/>
+        <WeatherCard/>
       </section>
       <footer className="App-footer">
         Made with care and love by 
