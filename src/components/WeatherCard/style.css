@@ -55,6 +55,7 @@
     width: 20%;
     display: flex;
     justify-content: flex-end;
+    padding: 0.6rem;
 }
 
 .color-green {
@@ -63,4 +64,8 @@
 
 .color-blue {
     color: darkcyan;
+}
+
+.button {
+    width: max-content;
 }
